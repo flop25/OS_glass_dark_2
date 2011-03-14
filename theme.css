@@ -1,0 +1,361 @@
+/* ---------------------------------------------------------------------------
+Thème OS_glass_dark_2
+
+theme-enfant de OS_default
+
+by flop25 http://www.planete-flop.fr/
+------------------------------------------------------------------------------ */
+
+@import "tiptip/tipTip.css" ;
+/* text color */
+BODY, H1, H2, H3, DT,
+INPUT.rateButtonSelected  {
+  color:#fff;
+}
+
+/* text color */
+BODY, H1, H2, H3, DT,
+INPUT.rateButtonSelected  {
+  color:#fff;
+}
+/* positionnement */
+.content div.thumbnailCategory div.illustration {
+float:left;
+margin:2px 5px 0 2px;
+text-align:left;
+width:auto;
+}
+
+/* backgrounds */
+.throw {
+  background-color: #ffffff;	/* white */
+}
+/* body {
+	background-image: url(images/back1.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-attachment:fixed;
+	font-size:0.7em;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	background-color: #000;
+}*/
+body {
+	font-size:0.7em;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	background-color: #334256;
+}
+/*BODY#theCommentsPage .content,
+BODY#theUploadPage .content,
+BODY#theRegisterPage .content,
+BODY#theIdentificationPage .content,
+BODY#theProfilePage .content,
+BODY#theSearchPage .content,
+BODY#theAboutPage .content,
+BODY#thePopuphelpPage .content,
+BODY#thePasswordPage .content,
+BODY#theNotificationPage .content,
+BODY#theTagsPage .content,
+BODY#theNBMPage .content
+{
+background: transparent url(images/section_in.png) repeat top center;
+}*/
+H2, .row1 {
+  background-color: #d3d3d3;
+}
+
+.header_notes {
+  background-color: #eeeeee;
+}
+#the_page > #comments {
+background: transparent url(images/section_in.png) repeat top center;
+}
+.titrePage h2, #section_in h2 {
+	background-color:transparent;
+	color: #fff;
+}
+BODY#theCommentsPage h2,
+BODY#theUploadPage h2,
+BODY#theRegisterPage h2,
+BODY#theIdentificationPage h2,
+BODY#theProfilePage h2,
+BODY#theSearchPage h2,
+BODY#theAboutPage h2,
+BODY#thePopuphelpPage h2,
+BODY#thePasswordPage h2,
+BODY#theNotificationPage h2,
+BODY#theTagsPage h2,
+BODY#theNBMPage h2
+  {
+	background-image: url(images/back_noir.png);
+	background-repeat:repeat-x;
+	background-color:#000;
+	color: #fff;
+}
+.content DIV.thumbnailCategory {
+	background-image: url(../../icon/menu/folder.png);
+	background-position: left bottom;
+	background-repeat:no-repeat;
+}
+.content ul.thumbnails span.wrap2 {
+background: transparent url(images/vignette.png) no-repeat top left;
+width:144px;
+height:144px;
+}
+.content ul.thumbnails span.wrap1 {
+	width:146px;
+	margin: 5px;
+}
+/* header */
+#theHeader {
+	background-image: url(images/header3.jpg);
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-color: #000000;
+	color:#FFFFFF;
+	font-size:1.2em;
+	font-weight:bold;
+	height:105px;
+}
+#theHeader H1 {
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#div_Menu {
+	margin-bottom:0;
+}
+/* contenu "section" */
+#section_in, #section_left, #section_bottom_left, #section_bottom, #section_bottom_right, #section_right{
+background:none;
+}
+
+
+#content #section_up_left{
+	background-image: url(images/section_up_left.png);
+	background-position:right top;
+	background-repeat:no-repeat;
+	height:91px;
+	width:72px;
+}
+#content #section_up {
+ background-image: url(images/section_up.png);
+ background-position:top;
+ background-repeat:repeat-x;
+ height:91px;
+ padding-bottom:20px;
+ padding-top:5px;
+}
+#content #section_up_right{
+ background-image: url(images/section_up_right.png);
+ background-position:left top;
+ background-repeat:no-repeat;
+ height:91px;
+ width:78px;
+}
+/* menubar*/
+
+#menubar {
+	margin-left:0px;
+}
+.mb_middle {
+background: transparent url(images/section_in.png) repeat top center;
+}
+#menubar DT{
+	background-image: url(images/fondMenu2.gif);
+	background-repeat:repeat-x;
+	background-color:#002024;
+	}
+/*#up .mb_left{
+	background-image: url(images/section_up_left.png);
+	background-position:right bottom;
+	background-repeat:no-repeat;
+ height:50px;
+}
+#section_up {
+ background-image: url(images/section_up.png);
+ background-position:bottom;
+ background-repeat:repeat-x;
+ height:50px;
+}
+#section_up_right{
+ background-image: url(images/section_up_right.png);
+ background-position:left bottom;
+ background-repeat:no-repeat;
+ height:50px;
+}
+#section_left{
+ background-image: url(images/section_left.png);
+ background-position:right;
+ background-repeat:repeat-y;
+}
+#section_bottom_left{
+ background-image: url(images/section_bottom_left.png);
+ background-position:top right;
+ background-repeat:no-repeat;
+}*/
+#bottom .mb_middle {
+ background-image: url(images/section_bottom.png);
+ background-position:top;
+ background-repeat:repeat-x;
+ height:20px;
+}
+#bottom .mb_right{
+ background-image: url(images/section_bottom_right.png);
+ background-position:left top;
+ background-repeat:no-repeat;
+ height:20px;
+ width:20px;
+}
+.mb_right {
+ background-image: url(images/section_right.png);
+ background-repeat:repeat-y;
+ background-position:left;
+ width:18px;
+}
+.mb_left {
+	display:none;
+	
+}
+/* menu Haut*/
+#div_Menu, #copyright {
+	background-image: url(images/back_noir.png);
+	background-repeat:repeat-x;
+    background-position:top center;
+}
+
+ul#Menu, ul#Menu li
+{
+	background:transparent;
+}
+ul#Menu li:hover
+{
+color: #fff;
+background-image: url(images/fondMenuSurvol.gif);
+background-repeat:repeat-x;
+background-position:center;
+background-color:transparent;
+	text-decoration: none;
+    border-bottom: none;
+}
+
+/* borders */
+#menubar DL {
+  border: 2px solid #002024;
+}
+
+#theImage IMG {
+  border-color: #fff;
+}
+#linkNext, #linkPrev {
+  border: 2px solid #fff;
+}
+
+.content UL.thumbnail IMG {
+    border: 1px solid #a0a0a0;
+}
+
+FIELDSET, INPUT, SELECT, TEXTAREA,
+.content DIV.comment  A.illustration IMG {
+  border: 1px solid #fff;
+}
+
+#comments DIV.comment BLOCKQUOTE {
+  border-left: 2px solid #696969;
+}
+
+/*
+.content UL.thumbnails SPAN.wrap2:hover,*/
+.content UL.thumbnailCategories DIV.thumbnailCategory:hover,
+.content UL.thumbnailCategories DIV.thumbnailCategory:hover A {
+  border-color: #002024;
+  color: #42B4FF;
+}
+.thumbnailCategory IMG {
+	border: 2px solid #FFFFFF;
+}
+/* links */
+A, INPUT.rateButton {
+    color: #fff;
+    background: transparent;
+}
+
+A:hover, INPUT.rateButton:hover {
+	color: #42B4FF;
+	border-bottom: none;
+	font-weight:bold;
+}
+
+#imageToolBar A, #imageToolBar A:hover {
+    border-bottom: none;
+}
+
+A.navThumb, A.navThumb:hover {
+    border-bottom: none;
+}
+#div_Menu A {
+	color:#FFFFFF;
+	text-decoration: none;
+}
+#div_Menu A:hover {
+	text-decoration: none;
+    border-bottom: none;
+}
+.header_notes A {
+    color: #333;
+}
+/* Picture */
+#imageHeaderBar {
+	background-image: url(images/fondblack2.png);
+	background-repeat:repeat-x;
+	background-position: center top;
+	background-color: #000000;
+}
+#imageHeaderBar h2 {
+background:transparent;
+color:#FFFFFF
+}
+#imageHeaderBar, #imageHeaderBar A {
+color:#FFFFFF;
+}
+#imageToolBar .randomButtons, #imageToolBar .navButtons {
+background:transparent;
+}
+#imageToolBar .navButtons {
+background:transparent;
+
+}
+#imageToolBar {
+	background-image: url(images/fondblack_bas.png);
+	background-repeat:repeat-x;
+	background-position: center bottom;
+	background-color: #000000;
+}
+#imageToolBar A:hover {
+background-image: url(images/fondMenuSurvol.gif);
+background-repeat:repeat-x;
+background-position:center;
+background-color:transparent;
+}
+#action_pict {
+	border: 2px solid #FFFFFF;
+    background: transparent url(images/back_actionpict.png) bottom center no-repeat;
+    color:#fff;
+    font-weight:bold;
+}
+/*calendar elements*/
+SPAN.calItem, SPAN.calItemEmpty
+{
+  border: 1px solid silver;
+}
+
+.virtual_cat { background: #fff !important; }
+#mbMenu #quicksearch > p { text-align: left; }
+form p { text-align:center; }
+#qsearchInput { color: #000; }
+#qsearchInput:focus { color: #000; }
+UL.tabsheet LI.normal_tab { background-color: #d3d3d3; }
+UL.tabsheet LI.selected_tab { background-color: #eeeeee; }
+
+UL.tabsheet, UL.tabsheet LI {border-color: gray;}
+UL.tabsheet LI.normal_tab:hover { border-color: black; }
+
+/*______________-------------------___________________________---------*/
