@@ -12,11 +12,11 @@ jQuery(document).ready(function(){
 	}).next().show();
 });
 $(function(){
-    $(".categoryActions A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200, });
+    $(".categoryActions A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
     $("#home_icon A").tipTip({edgeOffset : 10, fadeIn : 200, fadeOut : 200, defaultPosition : "top" });
-    $(".randomButtons A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200, });
-    $(".navButtons A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200, });
-    $("#mbCategories a").tipTip({delay : 0, fadeIn : 200, fadeOut : 200, });
+    $(".randomButtons A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
+    $(".navButtons A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
+    $("#mbCategories a").tipTip({delay : 0, fadeIn : 200, fadeOut : 200 });
 });
   </script> 
 {/literal}
@@ -25,21 +25,21 @@ $(function(){
     <!--[if lt IE 7]>
 <style>
 	#menubar dl, #section_in {
-	background:  #000!important;
+	background: transparent !important;
 	}
 	/* contenu "section" */
-	#section_up_left, #section_up, #section_up_right, #section_left, #section_bottom_left, #section_bottom, #section_bottom_right, #section_right{
-	background:none!important;
+	#section_left, #section_bottom_left, #section_bottom, #section_bottom_right, #section_right{
+	background: transparent !important;
 	}
 </style>
 <![endif]-->
 <!--[if IE 7]>
 <style>
 	#menubar dl, #section_in {
-	background:  #000!important;
+	background: transparent !important;
 	}
 	/* contenu "section" */
-	#section_up_left, #section_up, #section_up_right, #section_left, #section_bottom_left, #section_bottom, #section_bottom_right, #section_right{
+	#section_left, #section_bottom_left, #section_bottom, #section_bottom_right, #section_right{
 	background:none!important;
 	}
 	BODY#theCommentsPage .content,
@@ -57,7 +57,7 @@ $(function(){
 	#action_pict,
 	#comments
 	{
-	background:  #000!important;
+	background: transparent !important;
 	}
 </style>
 <![endif]-->
