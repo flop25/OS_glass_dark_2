@@ -24,7 +24,9 @@ margin:2px 5px 0 2px;
 text-align:left;
 width:auto;
 }
-
+#copyright {
+    margin: 0;
+}
 /* backgrounds */
 .throw {
   background-color: #ffffff;	/* white */
