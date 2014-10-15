@@ -19,6 +19,7 @@ $themeconf = array(
 	'Exclude'			=> array('theNBMPage','thePicturePage','thePopuphelpPage',),	# Excluded pages
 	'tab_system'			=> true,	# activation
 	'tab_closed'			=> array('mbLinks','mbTags','mbSpecials','mbIdentification'),	# tabs which are closed when the page is loaded
+  'colorscheme' => 'clear',
 );
 @include(PHPWG_ROOT_PATH. 'local/config/OS_glass_dark_2.inc.php');
 if (isset($conf['local_dir_site']))
